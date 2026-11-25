@@ -403,7 +403,7 @@ msgstr "高さ: "
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_graph.py:4952
 #, fuzzy
 msgid "Area: "
-msgstr "区域:"
+msgstr "領域:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:528
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:540
@@ -423,18 +423,17 @@ msgid ""
 "Cannot open image with PIL module to ge t size and details.\n"
 "(DecompressionBombError)"
 msgstr ""
-"PIL モジュールで画像を開いてサイズと詳細を取得できません。\n"
+"PIL モジュールで画像を開けないため、画像サイズと詳細情報を取得できません。\n"
 "(DecompressionBombError)"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:576
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:678
 msgid "CODE COUNT:"
-msgstr "コードカウント："
+msgstr "コーディング件数："
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:584
-#, fuzzy
 msgid "Average area: "
-msgstr "平均区域:"
+msgstr "平均面積: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:592
 msgid "STATISTICS:"
@@ -444,122 +443,106 @@ msgstr "統計："
 msgid ""
 "Word calculations: Words use alphabet characters and include the apostrophe."
 " All other characters are word separators"
-msgstr "単語の計算： 単語はアルファベットを使用し、アポストロフィを含む。その他の文字は単語の区切り文字"
+msgstr "単語の集計： アルファベットとアポストロフィを単語を構成する文字とします。"
+" それ以外の文字は、単語の区切り文字として扱います。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:647
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:545
-#, fuzzy
 msgid "Words: "
-msgstr "ワード:"
+msgstr "単語数: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:657
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:556
-#, fuzzy
 msgid "Unique words: "
-msgstr "ユニークな言葉:"
+msgstr "異なり語数: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:662
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:561
 msgid "Top 100 words"
-msgstr "トップ100ワード"
+msgstr "出現頻度上位100語"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:664
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:563
-#, fuzzy
 msgid "Applying stopwords: "
-msgstr "ストップワードの適用:"
+msgstr "ストップワードを適用: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:666
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:565
 msgid "Applying stopwords from: .qualcoder/stopwords.txt"
-msgstr ".qualcoder/stopwords.txt からストップワードを適用する"
+msgstr ".qualcoder/stopwords.txt からストップワードを適用"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:683
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:494
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_compare_coder_file.py:831
-#, fuzzy
 msgid "Total characters: "
-msgstr "合計文字:"
+msgstr "総文字数: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:685
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_code_summary.py:495
-#, fuzzy
 msgid "Average characters: "
-msgstr "平均文字:"
+msgstr "平均文字数: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1711
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:188
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:216
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:257
-#, fuzzy
 msgid "Clear file filter"
-msgstr "明確なファイル フィルター"
+msgstr "ファイルのフィルターを解除"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1717
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:195
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:228
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:272
-#, fuzzy
 msgid "Clear code filter"
-msgstr "明確なコード フィルター"
+msgstr "コードのフィルターを解除"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1719
-#, fuzzy
 msgid "Search text. 3 or more characters, or press Enter."
-msgstr "テキストを検索します。 3 文字以上、または Enter を押します。"
+msgstr "テキストを検索します。3文字以上入力するか、Enterキーを押してください。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1720
-#, fuzzy
 msgid "Show codes containing the text"
 msgstr "テキストを含むコードを表示"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1721
-#, fuzzy
 msgid "Case sensitive search"
-msgstr "ケースの敏感な検索"
+msgstr "大文字と小文字を区別して検索"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1722
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:4057
-#, fuzzy
 msgid "No code selected"
-msgstr "コード選択なし"
+msgstr "コードが選択されていません"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1725
-#, fuzzy
 msgid "Coder visibility"
-msgstr "Coder の可視性"
+msgstr "コーダーの表示設定"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1762
-#, fuzzy
 msgid "Code text  (T)"
-msgstr "コードテキスト(T)"
+msgstr "テキストをコーディング (T)"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1763
-#, fuzzy
 msgid "Code area / image  (E)"
-msgstr "コードエリア/イメージ(E)"
+msgstr "領域/画像をコーディング (E)"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:1797
-#, fuzzy
 msgid "Go to bookmark (press B to set)"
-msgstr "ブックマークに移動 (B を押して設定します)"
+msgstr "ブックマークへ移動 (Bキーで設定します)"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2007
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:725
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:1299
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4282
 msgid "Open memo"
-msgstr "オープンメモ"
+msgstr "メモを開く"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2016
-#, fuzzy
 msgid "Restructure to whole paragraphs (join lines)"
-msgstr "段落全体に再構成(行)"
+msgstr "段落単位で再構成 (改行を結合)"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2018
-#, fuzzy
 msgid "Restructure to one line per visual line"
-msgstr "視覚ラインごとの1ラインへの再構成"
+msgstr "見た目の行ごとに1行へ再構成"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2023
 msgid "View original file"
@@ -585,7 +568,7 @@ msgstr "次のファイル"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/information.py:423
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4290
 msgid "File with latest coding"
-msgstr "最新のコーディングファイル"
+msgstr "最近コーディングしたファイル"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2034
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:731
@@ -593,15 +576,14 @@ msgstr "最新のコーディングファイル"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_tree.py:350
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4296
 msgid "Sort"
-msgstr "選別"
+msgstr "並べ替え"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2159
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:662
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:1439
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2440
-#, fuzzy
 msgid "Memo for file: "
-msgstr "メモファイル:"
+msgstr "ファイルのメモ: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2224
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2232
@@ -666,49 +648,41 @@ msgid "Warning"
 msgstr "警告"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2225
-#, fuzzy
 msgid "Cannot open file. Bad file link: "
-msgstr "ファイルを開くことができません。 悪いファイルリンク:"
+msgstr "ファイルを開けません。 ファイルのリンクが無効です: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2232
-#, fuzzy
 msgid "Cannot open file: "
-msgstr "ファイルを開くことができない場合:"
+msgstr "ファイルを開けません: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2237
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/pdf_utils.py:170
-#, fuzzy
 msgid "PDF is password protected"
 msgstr "PDFはパスワードで保護されています"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2252
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2309
-#, fuzzy
 msgid "Reading text..."
-msgstr "テキストを読む..."
+msgstr "テキストを読み込み中..."
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2318
-#, fuzzy
 msgid "Could not read PDF text: "
-msgstr "PDFテキストは読み込めません。"
+msgstr "PDFのテキストを読み込めませんでした: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2680
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:5189
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:2056
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:2059
-#, fuzzy
 msgid "Coded area"
-msgstr "コードエリア"
+msgstr "コーディングされた領域"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2680
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:2056
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:2059
-#, fuzzy
 msgid "Select a code in the list first."
-msgstr "リストの最初のコードを選択します。"
+msgstr "まず、一覧からコードを選択してください。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2761
-#, fuzzy
 msgid "Annotation:"
 msgstr "注釈:"
 
@@ -716,9 +690,8 @@ msgstr "注釈:"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:4340
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:4350
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:5923
-#, fuzzy
 msgid "Annotation"
-msgstr "アノテーション"
+msgstr "注釈"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2773
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2893
@@ -727,7 +700,7 @@ msgstr "アノテーション"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4950
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5140
 msgid "No file was selected"
-msgstr "ファイルが選択されていない"
+msgstr "ファイルが選択されていません"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2777
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3406
@@ -740,35 +713,30 @@ msgstr "ファイルが選択されていない"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5390
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5536
 msgid "No code was selected"
-msgstr "コードが選択されていない"
+msgstr "コードが選択されていません"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2783
-#, fuzzy
 msgid "Text coding is disabled for this file. Re-import the PDF."
-msgstr "このファイルではテキストのコーディングは無効になっています。 PDFをインポートする"
+msgstr "このファイルではテキストのコーディングが無効です。PDFを再インポートしてください。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2989
-#, fuzzy
 msgid "Select coding for memo"
-msgstr "メモのコーディングを選択"
+msgstr "メモを開くコードを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:2998
-#, fuzzy
 msgid "Memo for coded segment: "
-msgstr "コードされたセグメントのメモ:"
+msgstr "コーディングされたテキスト箇所のメモ: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3002
-#, fuzzy
 msgid "Memo for coded area: "
-msgstr "コードされた領域のメモ:"
+msgstr "コーディングされた領域のメモ: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3003
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3866
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:5189
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:6354
-#, fuzzy
 msgid "Page"
-msgstr "サイトマップ"
+msgstr "ページ"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3121
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:4613
@@ -777,9 +745,8 @@ msgid "Select code to unmark"
 msgstr "マークを解除するコードを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3185
-#, fuzzy
 msgid "Select coding to flag important"
-msgstr "重要なフラグにコーディングを選択"
+msgstr "重要フラグをつけるコードを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3223
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:4145
@@ -802,14 +769,12 @@ msgid "Change code"
 msgstr "コード変更"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3238
-#, fuzzy
 msgid "That area is already coded with the chosen code."
-msgstr "その領域は、選択したコードで既にコードされています。"
+msgstr "その領域には、選択したコードが既に付与されています。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3247
-#, fuzzy
 msgid "That text segment is already coded with the chosen code."
-msgstr "そのテキストセグメントは、選択したコードで既にコードされています。"
+msgstr "そのテキスト箇所には、選択したコードが既に付与されています。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3289
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/manage_files.py:1101
@@ -830,25 +795,22 @@ msgid "Mark speakers"
 msgstr "発言者にマークを付ける"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3289
-#, fuzzy
 msgid "No file was selected."
 msgstr "ファイルが選択されていません。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3297
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:751
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4530
-#, fuzzy
 msgid ""
 "Coder \"{}\" is currently hidden. Do you want to make it visible, to see the"
 " speaker codings?"
-msgstr "Coder \"{}\" は現在非表示になっています。 スピーカーのコーディングを見たいですか?"
+msgstr "コーダー \"{}\" は現在非表示です。発言者のコードを表示するために、コーダーの表示を有効にしますか？"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3299
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:753
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:4532
-#, fuzzy
 msgid "Speaker coding"
-msgstr "スピーカーのコーディング"
+msgstr "発言者のコーディング"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3326
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3367
