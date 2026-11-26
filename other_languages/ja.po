@@ -401,9 +401,8 @@ msgstr "高さ: "
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:539
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_compare_coder_file.py:1104
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_graph.py:4952
-#, fuzzy
 msgid "Area: "
-msgstr "領域:"
+msgstr "領域: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:528
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_file_summary.py:540
@@ -755,7 +754,7 @@ msgstr "重要フラグをつけるコードを選択"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:991
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2326
 msgid "Select replacement code"
-msgstr "交換コードを選択"
+msgstr "変更後のコードを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3237
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3246
@@ -766,7 +765,7 @@ msgstr "交換コードを選択"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:909
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2118
 msgid "Change code"
-msgstr "コード変更"
+msgstr "コードを変更"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3238
 msgid "That area is already coded with the chosen code."
@@ -817,27 +816,26 @@ msgstr "発言者のコーディング"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:1981
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2031
 msgid "all matches in file"
-msgstr "ファイル内のすべてのマッチ"
+msgstr "ファイル内の全ての一致箇所"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3328
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3369
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:1986
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2036
 msgid "first match in file"
-msgstr "ファイルの最初の一致"
+msgstr "ファイル内の最初の一致箇所"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3330
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:1991
 msgid "last match in file"
-msgstr "ファイルの最後の一致"
+msgstr "ファイル内の最後の一致箇所"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3335
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3374
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:1996
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2041
-#, fuzzy
 msgid "code within code"
-msgstr "コード内のコード"
+msgstr "指定したコードの範囲内"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3350
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3386
@@ -861,18 +859,17 @@ msgstr "自動コーディング"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:507
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5545
 msgid "Use | to code multiple texts"
-msgstr "複数のテキストをコーディングする"
+msgstr "|を使い、複数のテキストをコーディングする"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3416
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5547
-#, fuzzy
 msgid "Auto code files with the current code using Regex:"
-msgstr "Regexを使用して現在のコードで自動コードファイル:"
+msgstr "選択中のコードで正規表現を使ってファイルを自動コーディング:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3418
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5549
 msgid "Auto code files with the current code for this text:"
-msgstr "このテキストの現在のコードで自動コードファイル："
+msgstr "入力したテキストに一致する箇所を、選択中のコードで自動コーディング:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3433
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3541
@@ -881,41 +878,36 @@ msgstr "このテキストの現在のコードで自動コードファイル：
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5381
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5568
 msgid "Select files to code"
-msgstr "コーディングするファイルを選択する"
+msgstr "コーディングするファイルを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3446
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3593
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5436
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5584
-#, fuzzy
 msgid "Regex compilation error"
-msgstr "Regexコンパイルエラー"
+msgstr "正規表現のコンパイルエラー"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3452
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5590
-#, fuzzy
 msgid "Autocode Text"
-msgstr "オートコードテキスト"
+msgstr "テキストの自動コーディング"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3516
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3641
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:555
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5498
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5682
-#, fuzzy
 msgid "Autocode insert error "
-msgstr "自動コードインサートエラー"
+msgstr "自動コーディングの挿入エラー"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3523
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:561
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5689
-#, fuzzy
 msgid "Autocoding error: "
-msgstr "オートコーディングの間違い:"
+msgstr "自動コーディングエラー:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3526
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5693
-#, fuzzy
 msgid "Text coding: "
 msgstr "テキストのコーディング:"
 
@@ -928,55 +920,49 @@ msgstr "テキストのコーディング:"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5510
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5515
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5693
-#, fuzzy
 msgid ""
 "\n"
 "Code: "
-msgstr "コード:"
+msgstr "\nコード:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3527
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3653
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:565
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5511
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5694
-#, fuzzy
 msgid ""
 "\n"
 "With: "
-msgstr "と:"
+msgstr "\n対象の文字列:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3530
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3656
-#, fuzzy
 msgid "Auto-code"
-msgstr "自動コード"
+msgstr "自動コーディング"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3530
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3656
-#, fuzzy
 msgid "Finished auto-coding."
-msgstr "終了する自動コーディング。"
+msgstr "自動コーディングが完了しました。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3555
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3568
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5396
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5409
 msgid "Code sentence"
-msgstr "コード文"
+msgstr "文のコーディング"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3558
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5399
 msgid "Auto code sentence using this text fragment:"
-msgstr "このテキスト・フラグメントを使用した自動コード文："
+msgstr "入力した文字列を含む文を自動コーディング:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3573
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5414
 msgid ""
 "Define sentence ending. Default is period space.\n"
 "Use \\n for line ending:"
-msgstr ""
-"文末を定義する。デフォルトはピリオド・スペース。\n"
-"行末には \"n \"を使用します："
+msgstr "文末の文字を指定してください。初期値はピリオドとスペース（. ）です。\n改行を文末にする場合は \\n を使用します:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3646
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_attributes.py:461
@@ -1014,19 +1000,16 @@ msgstr ""
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:3113
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:3269
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5503
-#, fuzzy
 msgid "File: "
-msgstr "ファイル:"
+msgstr "ファイル: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3646
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5503
-#, fuzzy
 msgid " added codes"
-msgstr "追加コード"
+msgstr "件のコードを追加"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3652
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5510
-#, fuzzy
 msgid "Sentence coding: "
 msgstr "文章のコーディング:"
 
@@ -1034,110 +1017,102 @@ msgstr "文章のコーディング:"
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3660
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5511
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5518
-#, fuzzy
 msgid ""
 "\n"
 "Using line ending: "
-msgstr "行末の使用:"
+msgstr "\n文末の区切り文字:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3657
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5514
 msgid "Automatic code sentence in files:"
-msgstr "ファイル内の自動コードセンテンス："
+msgstr "ファイル内の文を自動コーディング："
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3659
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5516
-#, fuzzy
 msgid ""
 "\n"
 "With text fragment: "
-msgstr "テキストの片を使って:"
+msgstr "\n対象の文字列:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3685
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/case_file_manager.py:623
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5254
 msgid "Cannot have blank text marks"
-msgstr "空白のテキストマークは不可"
+msgstr "開始・終了の文字列を空欄にはできません"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3695
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5265
-#, fuzzy
 msgid "Code text using start and end marks: "
-msgstr "開始および端の印を使用してコードテキスト:"
+msgstr "開始と終了の文字列を使ってテキストをコーディング:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3696
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/case_file_manager.py:626
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5266
-#, fuzzy
 msgid ""
 "\n"
 "Using "
-msgstr "使用方法"
+msgstr "\n開始・終了: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3696
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/case_file_manager.py:626
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5266
 msgid " and "
-msgstr "と"
+msgstr " と "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3746
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5327
 msgid "Coding using start and end marks"
-msgstr "スタートマークとエンドマークを使ったコーディング"
+msgstr "開始と終了の文字列を使ったコーディング"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3747
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5328
-#, fuzzy
 msgid ""
 "\n"
 "With start mark: "
-msgstr "開始印を使って:"
+msgstr "\n開始の文字列: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3747
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5328
-#, fuzzy
 msgid ""
 "\n"
 "End mark: "
-msgstr "端の印:"
+msgstr "\n終了の文字列: "
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3750
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5335
-#, fuzzy
 msgid " new coded sections found."
-msgstr "新しいコード化されたセクションが見つかりました。"
+msgstr "件の箇所を新たにコーディングしました。"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3752
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5337
 msgid "previously coded."
-msgstr "事前にコード化されている。"
+msgstr "件はすでにコーディング済みです"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3766
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:602
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5351
 msgid "Select auto-codings to undo"
-msgstr "元に戻す自動コーディングを選択する"
+msgstr "元に戻す自動コーディングを選択"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3781
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:616
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:5368
-#, fuzzy
 msgid "Undo autocoding: "
-msgstr "Undoのオートコーディング:"
+msgstr "自動コーディングを元に戻す:"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3790
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:344
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:1123
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2653
 msgid "Showing important codings"
-msgstr "重要なコーディングの表示"
+msgstr "重要フラグ付きのコードを表示中"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3793
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/view_image.py:347
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_av.py:1126
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_text.py:2656
 msgid "Show codings flagged important"
-msgstr "重要なフラグを付けたコーディングを表示する"
+msgstr "重要フラグ付きのコードを表示する"
 
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/code_pdf.py:3830
 #: /home/qwerty/Documents/Production/Software/QualCoder/QualCoder/src/qualcoder/report_codes.py:153
